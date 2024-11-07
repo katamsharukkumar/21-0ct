@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  gap: 2rem;
+}
+
+.child{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+.child1{
+  background-color: yellow;
+  order: 3;
+}
+
+.child2{
+  background-color: aqua;
+  order: -1;
+}
+
+.child3{
+  background-color: magenta;
+  order: 2;
+}
+
+.child4{
+  background-color: orangered;
+  order: 1;
+}
+
+.child5{
+  background-color: olive;
+  order: 2;
+}
